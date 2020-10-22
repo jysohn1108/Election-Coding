@@ -23,7 +23,7 @@ Tested stable depdencises:
 
 ### Training (+evaluation)
 ---
-#### Run in a single machine
+#### 1. Run in a single machine
 
 To train (and evaluate) the model in a single machine, run the commands as below:
 
@@ -46,7 +46,7 @@ python main.py --trial_idx 1 --redundancy 2.5 --num_nodes 5 --num_Byz_nodes 1 --
 All commands for generating the plots in the paper are provided in run.sh
 
 
-#### Run in multiple machines using Amazon EC2 with MPI
+#### 2. Run in multiple machines using Amazon EC2 with MPI
 
 To train the model in multiple machine, you first need to open machines in Amazon EC2 using [starcluster](http://star.mit.edu/cluster/docs/latest/manual/index.html#starcluster-user-manual) [[github]](https://github.com/cyberyu/starcluster_journeymap)
 
