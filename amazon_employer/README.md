@@ -55,4 +55,8 @@ For example, when n=15, run:
 mpirun -n 16 -f hosts python MPI_main.py
 ```
 
+See line 254 of MPI_main.py for changing the configuration
+
+
+
 
