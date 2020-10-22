@@ -53,13 +53,13 @@ To train the model in multiple machine, you first need to open machines in Amazo
 When the multiple machines are ready, run this command:
 
 ```train for CIFAR-10 dataset (Amazon EC2, n=5):
-mpirun –n $num_nodes + 1$ –f /home/hosts python MPI_main.py
+mpirun –n $num_nodes + 1$ –f hosts python MPI_main.py
 ```
 
 For example, when n=5, run:
 
 ```train for CIFAR-10 dataset (Amazon EC2, n=5):
-mpirun –n 6 –f /home/hosts python MPI_main.py
+mpirun –n 6 –f hosts python MPI_main.py
 ```
 
 
