@@ -62,4 +62,5 @@ For example, when n=5, run:
 mpirun –n 6 –f hosts python MPI_main.py
 ```
 
+See line 76 of MPI_main.py for changing the configuration
 
